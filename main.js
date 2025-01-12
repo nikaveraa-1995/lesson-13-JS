@@ -99,17 +99,18 @@ console.log('%=:', myTest);
 
 // константа Pi → myPi
  var myPi = Math.PI
- console.log('Math.PI:', Math.PI);
+ console.log('myPi:', myPi);
  
 // округленное значение числа 89.279 → myRound
-var myRound = Math.round
- console.log('Math.round:', Math.round(89.279));
+var myRound = Math.round(89.279);
+ console.log('myRound:', myRound);
+
 // случайное число между 0..10 → myRandom
-var myRandom = Math.random
- console.log('Math.random:', Math.random()*10);
+var myRandom = Math.random()*10;
+ console.log('myRandom:', myRandom);
 // 3 в 5 степени → myPow
-var myPow = Math.pow
- console.log('Math.pow:', Math.pow(3,5));
+var myPow = Math.pow(3,5);
+ console.log('myPow:', myPow);
 /*
  * #6
  *
